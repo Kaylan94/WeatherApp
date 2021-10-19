@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.heading {
+  color: #282c34;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.City-input {
+  height: 50px;
+  width: 300px;
+  border-radius: 4px;
+  background-color: #35bbec52;
+  font-size: large;
+  text-align: center;
+}
+
+
+.H-rule {
+  padding: 3px;
+  width: 75%;
+  background-color: #282c34;
+  border-radius: 2px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
